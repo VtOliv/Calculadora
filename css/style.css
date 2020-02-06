@@ -1,0 +1,20 @@
+.corpo {
+    background-color: gray;
+    border: 2px solid;
+    border-radius: 20px;
+    height: 100vw;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+.asd {
+    background-color: darkgray;
+    border: 2px solid;
+    border-radius: 20px;
+    height: 35vw;
+    width: 90%;
+}
+.tela{
+    width: 90%;
+    background-color: green;
+}
