@@ -1,20 +1,35 @@
-.corpo {
-    background-color: gray;
-    border: 2px solid;
-    border-radius: 20px;
-    height: 100vw;
-    width: 100vw;
+section {
     display: flex;
     justify-content: center;
+    background-color: lightskyblue;
 }
-.asd {
-    background-color: darkgray;
-    border: 2px solid;
-    border-radius: 20px;
-    height: 35vw;
-    width: 90%;
+.espaco {
+    height: 200px;
 }
-.tela{
-    width: 90%;
-    background-color: green;
+#calculadora {
+    border: 1px solid rgb(3, 3, 3);
+    background-color: gray;
+    width: 30vw;
+    height: 90%;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 5px;
+}
+button {
+    width: 23%;
+    height: 50px;
+    margin: 3px;
+    border-radius: 5px;
+}
+#igual {
+    position: relative;
+    width: 97%;
+    margin-top: 3px;
+}
+#tela {
+    width: 97%;
+    height: 15%;
+    padding: 20px;
+    border-radius: 5px;
+    overflow: hidden;
 }
