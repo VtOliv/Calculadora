@@ -35,7 +35,7 @@ const limparTela = (event) => {
 
 const results = (event) => {
     tela = document.getElementById('tela');
-    console.log(tela.value);
+    // console.log(tela.value);
     let resul = eval(tela.value);
     tela.innerHTML = resul;
 }
