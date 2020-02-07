@@ -38,10 +38,12 @@ button:hover {
     width: 98%;
     height: 15%;
     padding: 15px;
+    border:2px double;
     border-radius: 5px;
     overflow: hidden;
     text-align: end;
     font-size: 20px;
     background-color: green;
     color: black;
+    resize: none;
 }
